@@ -9,6 +9,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
     <title>Hello, world!</title>
   </head>
   <body>
@@ -54,7 +59,7 @@
                 <a class="dropdown-item" href="#">Separated link</a>
                 </div>
             </div>
-            <button type="button" class="btn btn-dark d-none d-lg-block col-md-1 mx-1 mt-1 mb-1"><span style="font-family: 'Unica One', cursive;" >MY CART</span></button>
+            <a type="button" href="cart.html" class="btn btn-dark d-none d-lg-block col-md-1 mx-1 mt-1 mb-1"><span style="font-family: 'Unica One', cursive;" >MY CART</span></a>
         </div>
     </div>
     <div class="row">
@@ -74,11 +79,11 @@
               </svg>
             </button>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#" data-target="#logModal" data-toggle="modal">Sign In</a>
-              <a class="dropdown-item" href="#" data-target="#regmod" data-toggle="modal">Register</a>
-              <a class="dropdown-item disabled" href="#" >Upload(Only for artist)</a>
-              <a class="dropdown-item" href="#">Bought</a>
-           </div>
+                <a class="dropdown-item" href="#" data-target="#logModal" data-toggle="modal">Sign In</a>
+                <a class="dropdown-item" href="#" data-target="#regmod" data-toggle="modal">Register</a>
+                <a class="dropdown-item disabled" href="#" >Upload(Only for artist)</a>
+                <a class="dropdown-item" href="#">Bought</a>
+             </div>
           </div>
         </div>
       </nav>
@@ -137,7 +142,7 @@
                   </div>
               </nav>
             </div>
-            <br>
+            <br>         
             <!-- Site content -->
             <br>
             <div class="row">
@@ -442,7 +447,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" href="account1.html">Save changes</button>
+        <a type="button" class="btn btn-primary" href="account1.html">Save changes</a>
       </div>
     </div>
   </div>
